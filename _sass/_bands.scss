@@ -1,0 +1,47 @@
+.band {
+    padding-top: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
+    border-bottom: 1px solid darken($gray, 5%);
+
+    &--gray {
+        background: $gray;
+    }
+
+    &--purple {
+        background: $purple;
+    }
+
+    &--red {
+        background: $red;
+    }
+
+    &--blue {
+        background: $blue;
+    }
+
+    &--yellow-light {
+        background: $yellow-light;
+    }
+
+    &--blue-light {
+        background: $blue-light;
+    }
+
+    &--LARGE {
+        width: 100%;
+        padding-top: $spacing-unit * 6;
+        padding-bottom: $spacing-unit * 6;
+    }
+
+    &--MEDIUM {
+        width: 100%;
+        padding-top: $spacing-unit * 4;
+        padding-bottom: $spacing-unit * 4;
+    }
+
+    &--SMALL {
+        width: 100%;
+        padding-top: $spacing-unit * 2;
+        padding-bottom: $spacing-unit * 2;
+    }
+}

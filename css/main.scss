@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+
+// Settings
+@import 'normalize';
+@import 'config';
+@import 'functions';
+
+// Base
+@import 'base';
+@import 'bands';
+@import 'container';
+@import 'typography';
