@@ -9,6 +9,14 @@
     margin: $spacing-unit/4;
     color: $background-color;
 
+    @include media-query($medium-screen) {
+        width: 45%;
+    }
+
+    @include media-query($small-screen) {
+        width: 100%;
+    }
+
     &:hover {
         background: $button-hover;
         cursor: pointer;
@@ -33,6 +41,14 @@
     border-radius: 3px;
     margin: $spacing-unit/4;
     color: $border;
+
+    @include media-query($medium-screen) {
+        width: 45%;
+    }
+
+    @include media-query($small-screen) {
+        width: 100%;
+    }
 
     &:hover {
         background: $button-hover;
@@ -61,6 +77,9 @@
     &--warning{
         @include button($warning, darken($warning, 10%), darken($warning, 15%));
     }
+    &--gray{
+        @include button($gray, darken($gray, 10%), darken($gray, 15%));
+    }
 
     &--primary--GHOST{
         @include button-ghost($primary, $primary, darken($primary, 15%));
@@ -73,5 +92,8 @@
     }
     &--warning--GHOST{
         @include button-ghost($warning, $warning, darken($warning, 15%));
+    }
+    &--gray--GHOST{
+        @include button-ghost($gray, $gray, darken($gray, 15%));
     }
 }
