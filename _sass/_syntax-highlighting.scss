@@ -5,6 +5,7 @@
     background: $gray;
     margin: 0;
     padding: $spacing-unit / 2;
+    overflow: scroll;
 
     .highlighter-rouge & {
       background: #eef;
