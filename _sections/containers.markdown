@@ -14,7 +14,7 @@ The `container` class is used to control the width of any particular section and
 <html>
     <body>
         <div class="container">
-            <!-- your content -->
+            container
         </div>
     </body>
 </html>
