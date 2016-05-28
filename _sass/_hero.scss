@@ -1,0 +1,13 @@
+.hero {
+    display: flex;
+    align-items: center;
+
+    &--logo {
+        margin-right: 1em;
+        max-width: 3.5em;
+    }
+
+    &--title {
+        margin: 0;
+    }
+}
