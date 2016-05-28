@@ -8,7 +8,7 @@
     border-radius: 3px;
     margin: $spacing-unit/4;
     color: $background-color;
-    transition: background .5s;
+    transition: background .5s, color .25s;
 
     @include media-query($medium-screen) {
         width: 45%;
@@ -21,12 +21,12 @@
     &:hover {
         background: $button-hover;
         cursor: pointer;
-        transition: background .5s;
+        transition: background .5s, color .25s;
     }
 
     &:active {
         background: $button-active;
-        transition: background .5s;
+        transition: background .5s, color .25s;
     }
 
     &:focus {
@@ -44,7 +44,7 @@
     border-radius: 3px;
     margin: $spacing-unit/4;
     color: $border;
-    transition: background .5s;
+    transition: background .5s, color .25s;
 
     @include media-query($medium-screen) {
         width: 45%;
@@ -58,7 +58,7 @@
         background: $button-hover;
         cursor: pointer;
         color: $background-color;
-        transition: background .5s;
+        transition: background .5s, color .25s;
     }
 
     &:active {
