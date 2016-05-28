@@ -10,12 +10,15 @@
 
 // Base
 @import 'base';
-@import 'bands';
-@import 'bricks';
-@import 'container';
-@import 'hero';
 @import 'typography';
 @import 'syntax-highlighting';
+
+// Elements
+@import 'bricks';
+@import 'container';
+@import 'bands';
+@import 'hero';
+@import 'icon';
 
 // Demo
 @import 'demo';

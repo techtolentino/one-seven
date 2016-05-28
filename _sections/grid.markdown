@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bricks Grid"
+icon: grid-icon.svg
 ---
 Ah yes, the `bricks` class! The Brickworks grid uses a flexbox grid system, with the ability to implement _stacking_ at certain breakpoints. The `bricks--layer` is your typical _row_, and every `bricks--item` is equivalent to a column.
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Containers"
+icon: container-icon.svg
 ---
 The `container` class is used to control the width of any particular section and is horizontally centered.
 
