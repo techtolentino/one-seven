@@ -1,5 +1,5 @@
 @mixin demo-block {
-    background: $blue-light;
+    background: $primary-light;
     padding-top: $spacing-unit/4;
     padding-bottom: $spacing-unit/4;
     padding-left: $spacing-unit/6;
@@ -25,16 +25,16 @@
 
     &--block--RED {
         @include demo-block;
-        background: $red;
+        background: $danger;
     }
 
     &--block--PURPLE {
         @include demo-block;
-        background: $purple;
+        background: $secondary;
     }
 
     &--block--YELLOW {
         @include demo-block;
-        background: $yellow;
+        background: $warning;
     }
 }
