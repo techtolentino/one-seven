@@ -19,6 +19,10 @@
         @include demo-block;
     }
 
+    &--block--SPACE {
+        margin-bottom: $spacing-unit/2;
+    }
+
     &--block--RED {
         @include demo-block;
         background: $red;
