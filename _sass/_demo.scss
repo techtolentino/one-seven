@@ -24,6 +24,10 @@
         width: 100%;
     }
 
+    &--left {
+        text-align: left;
+    }
+
     &--block--SPACE {
         margin-bottom: $spacing-unit/2;
     }
