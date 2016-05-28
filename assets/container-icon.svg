@@ -15,9 +15,9 @@
                 <path d="M12.5,2.5 L12.5,92.5" id="Line" stroke="#80D3EC" stroke-width="5" stroke-linecap="square"></path>
                 <path d="M112.5,2.5 L112.5,92.5" id="Line" stroke="#80D3EC" stroke-width="5" stroke-linecap="square"></path>
                 <use id="Rectangle-1" stroke="#38385E" mask="url(#mask-2)" stroke-width="4" transform="translate(62.500000, 47.500000) rotate(-90.000000) translate(-62.500000, -47.500000) " xlink:href="#path-1"></use>
-                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 16.000000) rotate(-90.000000) translate(-62.500000, -16.000000) " x="52.5" y="-26.5" width="20" height="85" rx="2"></rect>
-                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 46.000000) rotate(-90.000000) translate(-62.500000, -46.000000) " x="52.5" y="3.5" width="20" height="85" rx="2"></rect>
-                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 76.000000) rotate(-90.000000) translate(-62.500000, -76.000000) " x="52.5" y="33.5" width="20" height="85" rx="2"></rect>
+                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 18.000000) rotate(-90.000000) translate(-62.500000, -18.000000) " x="52.5" y="-24.5" width="20" height="85" rx="2"></rect>
+                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 48.000000) rotate(-90.000000) translate(-62.500000, -48.000000) " x="52.5" y="5.5" width="20" height="85" rx="2"></rect>
+                <rect id="Rectangle-1" fill="#D9D9E0" transform="translate(62.500000, 78.000000) rotate(-90.000000) translate(-62.500000, -78.000000) " x="52.5" y="35.5" width="20" height="85" rx="2"></rect>
             </g>
         </g>
     </g>

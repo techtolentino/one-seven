@@ -1,13 +1,14 @@
 @mixin button($button-color, $button-hover, $button-active) {
     background: $button-color;
     border: 1px solid transparent;
-    padding-top: $spacing-unit / 3;
-    padding-bottom: $spacing-unit / 3;
+    padding-top: $spacing-unit / 4;
+    padding-bottom: $spacing-unit / 4;
     padding-left: $spacing-unit;
     padding-right: $spacing-unit;
     border-radius: 3px;
     margin: $spacing-unit/4;
     color: $background-color;
+    transition: background .5s;
 
     @include media-query($medium-screen) {
         width: 45%;
@@ -20,10 +21,12 @@
     &:hover {
         background: $button-hover;
         cursor: pointer;
+        transition: background .5s;
     }
 
     &:active {
         background: $button-active;
+        transition: background .5s;
     }
 
     &:focus {
@@ -34,13 +37,14 @@
 @mixin button-ghost($border, $button-hover, $button-active) {
     background: transparent;
     border: 1px solid $border;
-    padding-top: $spacing-unit / 3;
-    padding-bottom: $spacing-unit / 3;
+    padding-top: $spacing-unit / 4;
+    padding-bottom: $spacing-unit / 4;
     padding-left: $spacing-unit;
     padding-right: $spacing-unit;
     border-radius: 3px;
     margin: $spacing-unit/4;
     color: $border;
+    transition: background .5s;
 
     @include media-query($medium-screen) {
         width: 45%;
@@ -54,6 +58,7 @@
         background: $button-hover;
         cursor: pointer;
         color: $background-color;
+        transition: background .5s;
     }
 
     &:active {
