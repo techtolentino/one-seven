@@ -1,0 +1,77 @@
+@mixin button($button-color, $button-hover, $button-active) {
+    background: $button-color;
+    border: 1px solid transparent;
+    padding-top: $spacing-unit / 3;
+    padding-bottom: $spacing-unit / 3;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    border-radius: 3px;
+    margin: $spacing-unit/4;
+    color: $background-color;
+
+    &:hover {
+        background: $button-hover;
+        cursor: pointer;
+    }
+
+    &:active {
+        background: $button-active;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+@mixin button-ghost($border, $button-hover, $button-active) {
+    background: transparent;
+    border: 1px solid $border;
+    padding-top: $spacing-unit / 3;
+    padding-bottom: $spacing-unit / 3;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    border-radius: 3px;
+    margin: $spacing-unit/4;
+    color: $border;
+
+    &:hover {
+        background: $button-hover;
+        cursor: pointer;
+        color: $background-color;
+    }
+
+    &:active {
+        background: $button-active;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+.button {
+    &--primary{
+        @include button($primary, darken($primary, 10%), darken($primary, 15%));
+    }
+    &--success{
+        @include button($success, darken($success, 10%), darken($success, 15%));
+    }
+    &--danger{
+        @include button($danger, darken($danger, 10%), darken($danger, 15%));
+    }
+    &--warning{
+        @include button($warning, darken($warning, 10%), darken($warning, 15%));
+    }
+
+    &--primary--GHOST{
+        @include button-ghost($primary, $primary, darken($primary, 15%));
+    }
+    &--success--GHOST{
+        @include button-ghost($success, $success, darken($success, 15%));
+    }
+    &--danger--GHOST{
+        @include button-ghost($danger, $danger, darken($danger, 15%));
+    }
+    &--warning--GHOST{
+        @include button-ghost($warning, $warning, darken($warning, 15%));
+    }
+}
