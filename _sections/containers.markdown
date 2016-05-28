@@ -2,7 +2,7 @@
 layout: post
 title: "Containers"
 ---
-The **Container** class is used to control the width of any particular section and is horizontally centered.
+The `container` class is used to control the width of any particular section and is horizontally centered.
 
 <div class="demo">
     <div class="demo--block">

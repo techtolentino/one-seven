@@ -1,3 +1,12 @@
+@mixin demo-block {
+    background: $blue-light;
+    text-align: center;
+    padding-top: $spacing-unit/4;
+    padding-bottom: $spacing-unit/4;
+    padding-left: $spacing-unit/6;
+    padding-right: $spacing-unit/6;
+    border-radius: 2px;
+}
 .demo {
     background: $background-color;
     padding-top: $spacing-unit;
@@ -7,6 +16,21 @@
     border: 1px solid darken($gray, 10%);
 
     &--block {
-        background: $blue-light;
+        @include demo-block;
+    }
+
+    &--block--RED {
+        @include demo-block;
+        background: $red;
+    }
+
+    &--block--PURPLE {
+        @include demo-block;
+        background: $purple;
+    }
+
+    &--block--YELLOW {
+        @include demo-block;
+        background: $yellow;
     }
 }
