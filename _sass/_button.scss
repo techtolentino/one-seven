@@ -5,7 +5,7 @@
     padding-bottom: $spacing-unit / 4;
     padding-left: $spacing-unit;
     padding-right: $spacing-unit;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: $spacing-unit/4;
     color: $background-color;
     transition: background .5s, color .25s;
@@ -41,10 +41,10 @@
     padding-bottom: $spacing-unit / 4;
     padding-left: $spacing-unit;
     padding-right: $spacing-unit;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: $spacing-unit/4;
     color: $border;
-    transition: background .5s, color .25s;
+    transition: background .25s, color .25s;
 
     @include media-query($medium-screen) {
         width: 45%;
@@ -56,13 +56,15 @@
 
     &:hover {
         background: $button-hover;
+        border: 1px solid $button-hover;
         cursor: pointer;
         color: $background-color;
-        transition: background .5s, color .25s;
+        transition: background .25s, color .25s;
     }
 
     &:active {
         background: $button-active;
+        border: 1px solid $button-active;
     }
 
     &:focus {

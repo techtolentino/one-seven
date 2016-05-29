@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Typography"
-icon: container-icon.svg
+icon: typography-icon.svg
 ---
 For a clean appearance, all headings are treated with a lighter, 200 value in `font-weight`.
 
@@ -14,6 +14,7 @@ For a clean appearance, all headings are treated with a lighter, 200 value in `f
         <h5>Brickworks</h5>
         <p>Brickworks</p>
         <small>Brickworks</small>
+        <a href="#"><p>Brickworks</p></a>
     </div>
 </div>
 
@@ -25,4 +26,5 @@ For a clean appearance, all headings are treated with a lighter, 200 value in `f
  <h5>Brickworks</h5>
  <p>Brickworks</p>
  <small>Brickworks</small>
+ <a href="#">Brickworks</a>
 {% endhighlight %}
