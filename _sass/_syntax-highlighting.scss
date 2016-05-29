@@ -6,6 +6,7 @@
     margin: 0;
     padding: $spacing-unit / 2;
     overflow: scroll;
+    font-family: 'Roboto Mono', monospace;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
@@ -71,4 +72,5 @@
 .highlighter-rouge {
     background: lighten($gray, 10%);
     font-size: .875em;
+    font-family: 'Roboto Mono', monospace;
 }
