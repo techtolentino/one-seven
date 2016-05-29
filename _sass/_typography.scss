@@ -39,8 +39,12 @@ p {
 
 a {
     color: $primary;
+    transition: color .25s;
+    text-decoration: none;
 
     &:hover {
         color: darken($primary, 15%);
+        text-decoration: underline;
+        transition: color .25s, text-decoration .25s;
     }
 }

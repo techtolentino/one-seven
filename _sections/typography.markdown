@@ -14,7 +14,7 @@ For a clean appearance, all headings are treated with a lighter, 200 value in `f
         <h5>Brickworks</h5>
         <p>Brickworks</p>
         <small>Brickworks</small>
-        <a href="#"><p>Brickworks</p></a>
+        <p><a href="#">Brickworks</a></p>
     </div>
 </div>
 
