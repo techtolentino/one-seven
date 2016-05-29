@@ -6,6 +6,7 @@
     margin: 0;
     padding: $spacing-unit / 2;
     overflow: scroll;
+    line-height: 1.65;
     font-family: 'Roboto Mono', monospace;
 
     .c     { color: #998; font-style: italic } // Comment

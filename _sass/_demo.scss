@@ -7,14 +7,16 @@
     border-radius: 2px;
 }
 .demo {
-    background: $background-color;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
-    padding-left: $spacing-unit/2;
-    padding-right: $spacing-unit/2;
     border: 1px solid darken($gray, 10%);
-    text-align: center;
 
+    &--section {
+        background: $background-color;
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
+        padding-left: $spacing-unit/2;
+        padding-right: $spacing-unit/2;
+        text-align: center;
+    }
     &--block {
         @include demo-block;
     }
