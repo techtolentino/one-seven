@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: "Bands"
 icon: band-icon.svg
 ---

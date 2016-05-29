@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: "Containers"
 icon: container-icon.svg
 ---

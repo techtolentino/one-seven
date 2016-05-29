@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: "Bricks Grid"
 icon: grid-icon.svg
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: "Typography"
 icon: typography-icon.svg
 ---

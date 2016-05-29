@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: section
 title: "Buttons"
 icon: button-icon.svg
 ---
