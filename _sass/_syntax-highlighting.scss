@@ -5,9 +5,11 @@
     background: lighten($gray, 10%);
     margin: 0;
     padding: $spacing-unit / 2;
-    overflow: scroll;
+    overflow: hidden;
     line-height: 1.65;
     font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    max-width: 100%;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
