@@ -2,8 +2,8 @@
 title: Brickworks
 email: makertolentino@gmail.com
 description: >
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/brickworks" # the subpath of your site, e.g. /blog
+url: "http://randytolentino.com" # the base hostname & protocol for your site
 twitter_username: techtolentino
 github_username:  techtolentino
 
