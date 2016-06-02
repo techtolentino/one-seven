@@ -225,8 +225,10 @@ pre,
 samp {
   font-family: 'Roboto Mono', monospace; /* 1 */
   font-size: .875em; /* 2 */
-  padding: .15em .5em;
+  padding: 1em .5em;
+  margin: 0;
   overflow: auto;
+  max-width: 100%;
 }
 
 /**
