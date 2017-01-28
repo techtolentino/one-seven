@@ -1,8 +1,14 @@
 <!doctype html>
 <html class="no-js" lang="">
-{% include head.html %}
+    {% include head.html %}
     <body>
-    {{ content }}
+        <div class="content">
+            <div class="content-sidebar">
+                {% include sidebar.html %}
+            </div>
+            <div class="content-main">
+                {{ content }}
+            </div>
+        </div>
     </body>
-    {% include footer.html %}
 </html>

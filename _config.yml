@@ -1,11 +1,9 @@
 # Site settings
-title: Brickworks
+title: Runbooks
 email: makertolentino@gmail.com
 description: >
-baseurl: "/brickworks" # the subpath of your site, e.g. /blog
-url: "http://randytolentino.com" # the base hostname & protocol for your site
-twitter_username: techtolentino
-github_username:  techtolentino
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 # Collections
 collections:
