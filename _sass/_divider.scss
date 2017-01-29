@@ -1,0 +1,7 @@
+.divider {
+    border: 0;
+    height: 0;
+    border-top: 2px solid $primary;
+    margin: $spacing-unit / 2 0 $spacing-unit 0;
+    width: $spacing-unit * 2;
+}

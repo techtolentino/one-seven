@@ -1,13 +1,12 @@
 # Site settings
 title: Runbooks
-email: makertolentino@gmail.com
 description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Collections
 collections:
-    sections:
+    runbooks:
         output: true
 
 # Build settings
