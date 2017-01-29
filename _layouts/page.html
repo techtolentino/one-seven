@@ -1,26 +1,15 @@
 ---
 layout: default
 ---
-<div class="band">
+<div class="band-md band--SECONDARY">
     <div class="container">
-        <img class="icon-medium" src="{{site.url}}{{site.baseurl}}/assets/{{page.slug}}.svg" alt="">
-        <h1>{{page.title}}</h1>
-        <hr class="divider">
-
+        <h1 class="text--WHITE">{{page.title}}</h1>
+        <hr class="divider--WHITE">
     </div>
 </div>
-
 <div class="band">
     <div class="container">
-        <h4>List of runbooks</h4>
-        <ul>
-        {% for runbook in site.runbooks %}
-            {% if runbook.tool == page.slug %}
-                <li>
-                    <a href="{{runbook.url}}">{{runbook.title}}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-        </ul>
+        {{content}}
     </div>
 </div>
+{% include footer.html %}

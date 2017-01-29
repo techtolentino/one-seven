@@ -1,1 +1,15 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 990"><defs><style>.cls-1{fill:#cb3837;}.cls-2{fill:#fff;}</style></defs><title>n</title><path class="cls-1" d="M0,990V0H990V990ZM186.19,185.53V803h312V314.29H680v488.8H803.78V185.53Z"/><path class="cls-2" d="M186.19,185.53h617.6V803.09H680V314.29H498.17V803h-312Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>npmE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="npmE">
+            <g id="Layer_1">
+                <path d="M4.00269397,124 C1.79206713,124 0,122.199298 0,119.997306 L0,4.00269397 C0,1.79206713 1.80070204,0 4.00269397,0 L119.997306,0 C122.207933,0 124,1.80070204 124,4.00269397 L124,119.997306 C124,122.207933 122.199298,124 119.997306,124 L4.00269397,124 Z M23.3207677,23.238101 L23.3207677,100.577778 L62.3995556,100.577778 L62.3995556,39.3656162 L85.1717172,39.3656162 L85.1717172,100.589051 L100.675475,100.589051 L100.675475,23.238101 L23.3207677,23.238101 Z" id="Shape" fill="#CB3837"></path>
+                <polygon id="Shape" fill="#FFFFFF" points="23.3207677 23.238101 100.676727 23.238101 100.676727 100.589051 85.1717172 100.589051 85.1717172 39.3656162 62.3970505 39.3656162 62.3970505 100.577778 23.3182626 100.577778"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

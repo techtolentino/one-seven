@@ -7,7 +7,23 @@
         padding: $spacing-unit * 2 0 $spacing-unit * 2 0;
     }
 
-    &--PRIMARY {
+    &--github {
         background: $primary;
+    }
+
+    &--slack {
+        background: $secondary;
+    }
+
+    &--mural {
+        background: $danger;
+    }
+
+    &--npmE {
+        background: $primary-dark;
+    }
+
+    &--SECONDARY {
+        background: $text-color;
     }
 }

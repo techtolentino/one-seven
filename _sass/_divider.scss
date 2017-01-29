@@ -1,7 +1,22 @@
-.divider {
+@mixin divider {
     border: 0;
     height: 0;
+    margin: $spacing-unit / 2 0 $spacing-unit / 2 0;
+}
+
+.divider {
+    @include divider;
     border-top: 2px solid $primary;
-    margin: $spacing-unit / 2 0 $spacing-unit 0;
     width: $spacing-unit * 2;
+
+    &--LIGHT {
+        @include divider;
+        border-top: 1px solid $gray;
+    }
+
+    &--WHITE {
+        @include divider;
+        border-top: 2px solid $background-color;
+        width: $spacing-unit * 2;
+    }
 }

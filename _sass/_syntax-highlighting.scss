@@ -2,7 +2,6 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: lighten($gray, 10%);
     margin: 0;
     padding: $spacing-unit / 2;
     overflow: auto;
@@ -73,7 +72,9 @@
 }
 
 .highlighter-rouge {
-    background: lighten($gray, 10%);
-    font-size: .875em;
+    background: lighten($gray, 7%);
     font-family: 'Roboto Mono', monospace;
+    padding: 1px 3px;
+    border-radius: 2px;
+    color: $primary;
 }

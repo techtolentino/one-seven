@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool-page
 title: GitHub Enterprise
 slug: github
 ---
