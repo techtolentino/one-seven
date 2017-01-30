@@ -12,7 +12,9 @@ In order to add to the Runbooks, you can simply add a `.md` file in the appropri
 - make a pull request
 
 
-##### Example file
+#### Example file
+`/_runbooks/slack/sample.md`
+
 ```
 ---
 layout: runbook
