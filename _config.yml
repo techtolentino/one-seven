@@ -1,13 +1,13 @@
 # Site settings
-title: Runbooks
+title: Randy Tolentino | One Seven
 description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Collections
-collections:
-    runbooks:
-        output: true
+# collections:
+#     some-collection:
+#         output: true
 
 # Build settings
 markdown: kramdown
