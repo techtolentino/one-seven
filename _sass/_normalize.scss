@@ -90,7 +90,7 @@ template, /* 1 */
  */
 
 a {
-  background-color: transparent; /* 1 */
+  white: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 }
 
@@ -159,7 +159,7 @@ h1 {
  */
 
 mark {
-  background-color: #ff0;
+  white: #ff0;
   color: #000;
 }
 

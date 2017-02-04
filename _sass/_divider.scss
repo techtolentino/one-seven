@@ -16,7 +16,7 @@
 
     &--WHITE {
         @include divider;
-        border-top: 2px solid $background-color;
+        border-top: 2px solid $white;
         width: $spacing-unit * 2;
     }
 }
