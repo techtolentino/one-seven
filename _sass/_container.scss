@@ -10,6 +10,6 @@
 
     &-md {
         @include container;
-        max-width: $medium-screen;
+        max-width: $small-screen;
     }
 }

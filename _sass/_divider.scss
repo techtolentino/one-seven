@@ -11,7 +11,9 @@
 
     &--LIGHT {
         @include divider;
-        border-top: 1px solid $gray;
+        border-top: 2px solid $gray;
+        width: $spacing-unit * 1.5;
+        margin: $spacing-unit 0 $spacing-unit  0;
     }
 
     &--WHITE {
